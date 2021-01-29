@@ -86,7 +86,7 @@ const DefaultTabBar = createReactClass({
           disabled={isDisabled}
           key={name}
           accessible={accessible}
-          accessibilityRole='tab'
+          accessibilityRole='none'
           accessibilityLabel={accessibilityLabel}
           accessibilityState={accessibilityState}
           onPress={() => onPressHandler(page)}
@@ -114,7 +114,7 @@ const DefaultTabBar = createReactClass({
         disabled={isDisabled}
         key={_.random(1.2, 5.2)}
         accessible={accessible}
-        accessibilityRole='tab'
+        accessibilityRole='none'
         accessibilityLabel={accessibilityLabel}
         accessibilityState={accessibilityState}
         onPress={() => onPressHandler(page)}
